@@ -1,0 +1,3 @@
+App myscript.sh write hello
+App myscript.sh write hello
+App myscript.sh write hello

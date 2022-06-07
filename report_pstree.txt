@@ -1,0 +1,17 @@
+init-+-init---init-+-zsh-+-minishell---pstree.sh---pstree
+     |             |     `-sudo---dockerd-+-containerd---25*[{containerd}]
+     |             |                      `-22*[{dockerd}]
+     |             |-zsh---gitstatusd-linu---32*[{gitstatusd-linu}]
+     |             `-2*[zsh]
+     |-init---init-+-sh---sh---sh---node-+-node-+-zsh
+     |             |                     |      `-11*[{node}]
+     |             |                     |-node-+-cpptools-+-cpptools-srv---22*[{cpptools-srv}]
+     |             |                     |      |          `-35*[{cpptools}]
+     |             |                     |      |-node---6*[{node}]
+     |             |                     |      `-11*[{node}]
+     |             |                     |-node---12*[{node}]
+     |             |                     `-10*[{node}]
+     |             |-zsh---gitstatusd-linu---32*[{gitstatusd-linu}]
+     |             `-2*[zsh]
+     |-2*[init---init---node---6*[{node}]]
+     `-{init}
